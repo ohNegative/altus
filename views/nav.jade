@@ -1,8 +1,6 @@
 nav.grey.darken-4(role='navigation')
-    .nav-wrapper(class='container')
-        ul.left.hide-on-med-and-down
-            li
-                a(href='/') Home
+    .nav-wrapper
+        ul.main-nav.left.hide-on-med-and-down
             li
                 a.active.dropdown-button(href='#!', data-activates='dropdown1') Residential Projects
                     i(class='material-icons right') arrow_drop_down
@@ -22,7 +20,7 @@ nav.grey.darken-4(role='navigation')
                     li
                         a(href='#') Dalseth Dental
                     li
-                        a(href='#') Streeter &#43; Associates
+                        a(href='#') Streeter &#43; Assoc.
             li
                 a(href='link3.html') About
             li
@@ -31,7 +29,7 @@ nav.grey.darken-4(role='navigation')
             li.no-padding
                 ul.collapsible.collapsible-accordion
                     li
-                        a.collapsible-header.waves-effect.waves-teal Residential Projects
+                        a.collapsible-header.waves-effect.waves-grey Residential Projects
                             i(class='material-icons right') more_vert
                         .collapsible-body 
                             ul
@@ -46,7 +44,7 @@ nav.grey.darken-4(role='navigation')
              li.no-padding
                 ul.collapsible.collapsible-accordion
                     li
-                        a.collapsible-header.waves-effect.waves-teal Other Projects
+                        a.collapsible-header.waves-effect.waves-grey Other Projects
                             i(class='material-icons right') more_vert
                         .collapsible-body 
                             ul
@@ -54,11 +52,9 @@ nav.grey.darken-4(role='navigation')
                                     a(href='#') Dalseth Dental
                                 li
                                     a(href='#') Streeter &#38; Assoc.
-            li
-                a.waves-effect.waves-teal(href='link2.html') Other
-            li
-                a.waves-effect.waves-teal(href='link3.html') About
-            li
-                a.waves-effect.waves-teal(href='link3.html') Contact
+            li.no-padding
+                a.waves-effect.waves-grey(href='link3.html') About
+            li.no-padding
+                a.waves-effect.waves-grey(href='link3.html') Contact
         a.button-collapse(href='#', data-activates='nav-mobile')
             i(class='material-icons') menu   
