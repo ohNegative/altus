@@ -1,3 +1,5 @@
+$('.materialboxed').materialbox();
+
 $('.button-collapse').sideNav();
 
 $('.modal-trigger').leanModal();
