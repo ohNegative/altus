@@ -1,0 +1,34 @@
+extends layout
+
+block content	
+	.container
+		.row.center
+			.col.l12
+				h1.header.grey-darken-3-text Contact Us
+				h5.header.grey-darken-3-text Feel welcome to stop by or just say 'Hello'.
+	.container
+		.row.contact
+			form.col.s.12m4.l6
+				p.light.left We would love nothing better than to hear from you. Are you planning to remodel? Maybe dreaming up a new modern design for your house, or anything else inbetween; we'd love to find out how we can help you make your next project a reality.				
+				.input-field.col.s12.m12.l12
+					input#name.validate(type='text')
+					label(for='name') Name
+				.input-field.col.s12.m12.l12
+					input#email.validate(type='email')
+					label(for='email', data-error='invalid', data-success='valid') Email
+				.input-field.col.s12.m12.l12
+					textarea#textArea.materialize-textarea
+					label(for='textArea') Message
+				button.waves-effect.waves-light.btn.grey Submit
+					i.material-icons.right send
+			.col.s12.m4.l6
+				.icon-block.center
+					h2.center.grey-text
+						i.material-icons business
+					h5 HQ Address <br>
+				p.light.center 945 Broadway ST. NE<br> Suite 240<br> Minneapolis, MN. 55413<br> 
+					a.links(href='tel://612.333.809') 612.333.8095<br>
+					a.links(href='https://www.google.com/maps/place/945+Broadway+St+NE,+Minneapolis,+MN+55413/@44.9990755,-93.2480673,965m/data=!3m2!1e3!4b1!4m2!3m1!1s0x52b32d99bbb9b5d9:0x8c933cbab2712c5f!6m1!1e1') Google Maps
+
+
+
